@@ -1,0 +1,161 @@
+{
+  "scene_id": "scene_0003",
+  "duration_sec": 60,
+  "topic": [
+    "food culture"
+  ],
+  "setting": "dinner_party",
+  "speakers": [
+    {
+      "id": "A",
+      "label": "A",
+      "gender": "F",
+      "accent": "IN",
+      "nationality": "India"
+    },
+    {
+      "id": "B",
+      "label": "B",
+      "gender": "M",
+      "accent": "AU",
+      "nationality": "Australia"
+    },
+    {
+      "id": "C",
+      "label": "C",
+      "gender": "F",
+      "accent": "US",
+      "nationality": "USA"
+    },
+    {
+      "id": "D",
+      "label": "D",
+      "gender": "M",
+      "accent": "LATAM",
+      "nationality": "Latin America"
+    }
+  ],
+  "lines": [
+    {
+      "t": 0.0,
+      "spk": "A",
+      "text": "Have you tried making Indian curry at home? It's tricky but so good."
+    },
+    {
+      "t": 4.2,
+      "spk": "B",
+      "text": "I tried once; the spices were all over the place."
+    },
+    {
+      "t": 7.6,
+      "spk": "C",
+      "text": "My Australian friend says he can't handle spice at all."
+    },
+    {
+      "t": 11.2,
+      "spk": "D",
+      "text": "Latin American cuisine has its own heat though; you should try Peruvian food."
+    },
+    {
+      "t": 15.0,
+      "event": "CUTIN_1"
+    },
+    {
+      "t": 15.1,
+      "spk": "A",
+      "text": "I love how regional flavors differ so much."
+    },
+    {
+      "t": 18.6,
+      "spk": "B",
+      "text": "Balancing spices is an art."
+    },
+    {
+      "t": 22.0,
+      "spk": "C",
+      "text": "Right—each ingredient changes the whole dish."
+    },
+    {
+      "t": 26.0,
+      "spk": "D",
+      "text": "My grandma's recipe always brings everyone together."
+    },
+    {
+      "t": 30.0,
+      "event": "CUTIN_2"
+    },
+    {
+      "t": 30.1,
+      "spk": "B",
+      "text": "Food really is a big part of our identities."
+    },
+    {
+      "t": 34.0,
+      "spk": "A",
+      "text": "It reminds us of family and tradition."
+    }
+  ],
+  "cutins": [
+    {
+      "id": "CUTIN_1",
+      "time_sec": 15.0,
+      "timer_sec": 5,
+      "prompt": "Offer a comment or question that stays on the food culture topic.",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Yeah, regional flavors really differ. What's the secret to balancing spices?"
+        },
+        {
+          "id": "c2",
+          "text": "I love exploring cuisines; what's your favorite dish from your country?"
+        },
+        {
+          "id": "c3",
+          "text": "Spicy food is disgusting."
+        },
+        {
+          "id": "c4",
+          "text": "Let's talk about movies."
+        }
+      ],
+      "best_choice_id": "c1",
+      "acceptable_choice_ids": [
+        "c2"
+      ]
+    },
+    {
+      "id": "CUTIN_2",
+      "time_sec": 30.0,
+      "timer_sec": 5,
+      "prompt": "Bring it deeper by connecting food to cultural identity or values.",
+      "choices": [
+        {
+          "id": "d1",
+          "text": "Food can bring people together; do you have family recipes?"
+        },
+        {
+          "id": "d2",
+          "text": "It's interesting how food reflects family and traditions—does your favorite dish remind you of anything?"
+        },
+        {
+          "id": "d3",
+          "text": "I hate my country's food."
+        },
+        {
+          "id": "d4",
+          "text": "I'm vegan; meat is unethical."
+        }
+      ],
+      "best_choice_id": "d2",
+      "acceptable_choice_ids": [
+        "d1"
+      ]
+    }
+  ],
+  "review": {
+    "show_best_answer": true,
+    "show_next_move": true,
+    "replay_window_sec": 6
+  }
+}

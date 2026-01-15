@@ -1,0 +1,161 @@
+{
+  "scene_id": "scene_0001",
+  "duration_sec": 60,
+  "topic": [
+    "culture",
+    "values"
+  ],
+  "setting": "after_work_chat",
+  "speakers": [
+    {
+      "id": "A",
+      "label": "A",
+      "gender": "F",
+      "accent": "US"
+    },
+    {
+      "id": "B",
+      "label": "B",
+      "gender": "M",
+      "accent": "US"
+    },
+    {
+      "id": "C",
+      "label": "C",
+      "gender": "F",
+      "accent": "UK"
+    },
+    {
+      "id": "D",
+      "label": "D",
+      "gender": "M",
+      "accent": "US"
+    }
+  ],
+  "lines": [
+    {
+      "t": 0.0,
+      "spk": "A",
+      "text": "Okay, real talk—tipping here still feels kinda wild to me."
+    },
+    {
+      "t": 4.2,
+      "spk": "B",
+      "text": "Right? It’s everywhere now. Like… even for coffee."
+    },
+    {
+      "t": 7.6,
+      "spk": "C",
+      "text": "And you feel guilty if you don’t, which is the weird part."
+    },
+    {
+      "t": 11.2,
+      "spk": "D",
+      "text": "But I also get it—wages are messed up, so people rely on it."
+    },
+    {
+      "t": 15.0,
+      "event": "CUTIN_1"
+    },
+    {
+      "t": 15.1,
+      "spk": "A",
+      "text": "Exactly. It’s less a bonus and more… mandatory."
+    },
+    {
+      "t": 18.6,
+      "spk": "B",
+      "text": "Yeah, it turns into this whole unspoken rule thing."
+    },
+    {
+      "t": 22.0,
+      "spk": "C",
+      "text": "That’s cultural pressure, honestly."
+    },
+    {
+      "t": 26.0,
+      "spk": "D",
+      "text": "And it’s tied to fairness too—who should carry the cost?"
+    },
+    {
+      "t": 30.0,
+      "event": "CUTIN_2"
+    },
+    {
+      "t": 30.1,
+      "spk": "B",
+      "text": "It’s funny how we normalize broken systems."
+    },
+    {
+      "t": 34.0,
+      "spk": "A",
+      "text": "Yeah… and it changes how you see people, too."
+    }
+  ],
+  "cutins": [
+    {
+      "id": "CUTIN_1",
+      "time_sec": 15.0,
+      "timer_sec": 5,
+      "prompt": "カットインして会話を広げろ（流れを乱すな）",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Totally. I’m still trying to figure out what’s ‘normal’ here—when is tipping actually expected?"
+        },
+        {
+          "id": "c2",
+          "text": "Yeah tipping is weird. Anyway, everything’s getting expensive these days."
+        },
+        {
+          "id": "c3",
+          "text": "I get it, but tipping shouldn’t exist. It’s objectively wrong."
+        },
+        {
+          "id": "c4",
+          "text": "Same, I just do 20% no matter what so I don’t have to think about it."
+        }
+      ],
+      "best_choice_id": "c1",
+      "acceptable_choice_ids": [
+        "c4"
+      ],
+      "follow_up": {
+        "best_next_line_hint": "expectations / rules を広げる"
+      }
+    },
+    {
+      "id": "CUTIN_2",
+      "time_sec": 30.0,
+      "timer_sec": 5,
+      "prompt": "価値観に一段深く入れ（重くしすぎるな）",
+      "choices": [
+        {
+          "id": "d1",
+          "text": "So it’s like culture is patching a broken system—kind of a weird definition of ‘normal,’ right?"
+        },
+        {
+          "id": "d2",
+          "text": "Culture differences are interesting. I visited Japan once."
+        },
+        {
+          "id": "d3",
+          "text": "Honestly, people should just tip more and stop complaining."
+        },
+        {
+          "id": "d4",
+          "text": "I’m okay with it, but I wish the rules were clearer—what counts as ‘fair’ for everyone?"
+        }
+      ],
+      "best_choice_id": "d4",
+      "acceptable_choice_ids": [
+        "d1"
+      ]
+    }
+  ],
+  "review": {
+    "show_best_answer": true,
+    "show_next_move": true,
+    "replay_window_sec": 6
+  }
+}

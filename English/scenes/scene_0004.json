@@ -1,0 +1,161 @@
+{
+  "scene_id": "scene_0004",
+  "duration_sec": 60,
+  "topic": [
+    "travel experiences"
+  ],
+  "setting": "hostel_common_area",
+  "speakers": [
+    {
+      "id": "A",
+      "label": "A",
+      "gender": "M",
+      "accent": "SG",
+      "nationality": "Singapore"
+    },
+    {
+      "id": "B",
+      "label": "B",
+      "gender": "F",
+      "accent": "UK",
+      "nationality": "United Kingdom"
+    },
+    {
+      "id": "C",
+      "label": "C",
+      "gender": "M",
+      "accent": "AU",
+      "nationality": "Australia"
+    },
+    {
+      "id": "D",
+      "label": "D",
+      "gender": "F",
+      "accent": "LATAM",
+      "nationality": "Latin America"
+    }
+  ],
+  "lines": [
+    {
+      "t": 0.0,
+      "spk": "A",
+      "text": "My last trip to Singapore was mind-blowing; the food, the cleanliness!"
+    },
+    {
+      "t": 4.2,
+      "spk": "B",
+      "text": "I loved it too, but it's expensive."
+    },
+    {
+      "t": 7.6,
+      "spk": "C",
+      "text": "Australia's beaches are amazing; but they have dangerous jellyfish."
+    },
+    {
+      "t": 11.2,
+      "spk": "D",
+      "text": "I always wanted to see Machu Picchu in Peru."
+    },
+    {
+      "t": 15.0,
+      "event": "CUTIN_1"
+    },
+    {
+      "t": 15.1,
+      "spk": "A",
+      "text": "I learned to appreciate different ways of life."
+    },
+    {
+      "t": 18.6,
+      "spk": "B",
+      "text": "Trying new foods always makes me feel connected."
+    },
+    {
+      "t": 22.0,
+      "spk": "C",
+      "text": "I didn't expect to be so humbled by nature."
+    },
+    {
+      "t": 26.0,
+      "spk": "D",
+      "text": "Meeting locals taught me the most."
+    },
+    {
+      "t": 30.0,
+      "event": "CUTIN_2"
+    },
+    {
+      "t": 30.1,
+      "spk": "B",
+      "text": "Absolutely, you get to see the world through someone else's eyes."
+    },
+    {
+      "t": 34.0,
+      "spk": "A",
+      "text": "It makes you re-evaluate your own culture too."
+    }
+  ],
+  "cutins": [
+    {
+      "id": "CUTIN_1",
+      "time_sec": 15.0,
+      "timer_sec": 5,
+      "prompt": "Add a comment or question that keeps the travel experience flow going.",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "It's amazing how travel changes your perspective. What's the most surprising thing you've learned abroad?"
+        },
+        {
+          "id": "c2",
+          "text": "Which place would you recommend I visit next?"
+        },
+        {
+          "id": "c3",
+          "text": "I don't like traveling; it's stressful."
+        },
+        {
+          "id": "c4",
+          "text": "What's your favorite TV show?"
+        }
+      ],
+      "best_choice_id": "c1",
+      "acceptable_choice_ids": [
+        "c2"
+      ]
+    },
+    {
+      "id": "CUTIN_2",
+      "time_sec": 30.0,
+      "timer_sec": 5,
+      "prompt": "Connect travel to personal growth or values.",
+      "choices": [
+        {
+          "id": "d1",
+          "text": "Do you think traveling teaches empathy by showing how others live?"
+        },
+        {
+          "id": "d2",
+          "text": "Travel definitely broadens the mind; do you feel changed after going abroad?"
+        },
+        {
+          "id": "d3",
+          "text": "Travel is a waste of money."
+        },
+        {
+          "id": "d4",
+          "text": "I get lost easily; let's not travel."
+        }
+      ],
+      "best_choice_id": "d1",
+      "acceptable_choice_ids": [
+        "d2"
+      ]
+    }
+  ],
+  "review": {
+    "show_best_answer": true,
+    "show_next_move": true,
+    "replay_window_sec": 6
+  }
+}

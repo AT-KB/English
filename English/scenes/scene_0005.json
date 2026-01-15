@@ -1,0 +1,161 @@
+{
+  "scene_id": "scene_0005",
+  "duration_sec": 60,
+  "topic": [
+    "personal hobbies"
+  ],
+  "setting": "weekend_hangout",
+  "speakers": [
+    {
+      "id": "A",
+      "label": "A",
+      "gender": "F",
+      "accent": "US",
+      "nationality": "USA"
+    },
+    {
+      "id": "B",
+      "label": "B",
+      "gender": "M",
+      "accent": "IN",
+      "nationality": "India"
+    },
+    {
+      "id": "C",
+      "label": "C",
+      "gender": "F",
+      "accent": "SG",
+      "nationality": "Singapore"
+    },
+    {
+      "id": "D",
+      "label": "D",
+      "gender": "M",
+      "accent": "UK",
+      "nationality": "United Kingdom"
+    }
+  ],
+  "lines": [
+    {
+      "t": 0.0,
+      "spk": "A",
+      "text": "I'm learning to play the guitar; it's challenging but rewarding."
+    },
+    {
+      "t": 4.2,
+      "spk": "B",
+      "text": "Nice! I've been into photography lately."
+    },
+    {
+      "t": 7.6,
+      "spk": "C",
+      "text": "I spend my free time coding small games."
+    },
+    {
+      "t": 11.2,
+      "spk": "D",
+      "text": "I love cooking new recipes every weekend."
+    },
+    {
+      "t": 15.0,
+      "event": "CUTIN_1"
+    },
+    {
+      "t": 15.1,
+      "spk": "A",
+      "text": "It's tough, but I set aside an hour each night."
+    },
+    {
+      "t": 18.6,
+      "spk": "B",
+      "text": "I carry my camera everywhere to capture moments."
+    },
+    {
+      "t": 22.0,
+      "spk": "C",
+      "text": "Coding is my way of relaxing."
+    },
+    {
+      "t": 26.0,
+      "spk": "D",
+      "text": "Cooking helps me unwind after work."
+    },
+    {
+      "t": 30.0,
+      "event": "CUTIN_2"
+    },
+    {
+      "t": 30.1,
+      "spk": "B",
+      "text": "Photography taught me patience and observation."
+    },
+    {
+      "t": 34.0,
+      "spk": "A",
+      "text": "Playing guitar helps me express emotions I can't put into words."
+    }
+  ],
+  "cutins": [
+    {
+      "id": "CUTIN_1",
+      "time_sec": 15.0,
+      "timer_sec": 5,
+      "prompt": "Make a contribution that fits the hobby conversation.",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "That's awesome! How do you find time for your hobbies?"
+        },
+        {
+          "id": "c2",
+          "text": "I tried playing guitar but gave up; any tips to stay motivated?"
+        },
+        {
+          "id": "c3",
+          "text": "I prefer watching TV."
+        },
+        {
+          "id": "c4",
+          "text": "Politics are more important than hobbies."
+        }
+      ],
+      "best_choice_id": "c1",
+      "acceptable_choice_ids": [
+        "c2"
+      ]
+    },
+    {
+      "id": "CUTIN_2",
+      "time_sec": 30.0,
+      "timer_sec": 5,
+      "prompt": "Take the conversation deeper by connecting hobbies to personal growth or values.",
+      "choices": [
+        {
+          "id": "d1",
+          "text": "Do your hobbies shape your personality or mindset? What have you learned about yourself?"
+        },
+        {
+          "id": "d2",
+          "text": "Hobbies can be like therapy; do they help you relax?"
+        },
+        {
+          "id": "d3",
+          "text": "I have no hobbies; I just work."
+        },
+        {
+          "id": "d4",
+          "text": "Let's start a band."
+        }
+      ],
+      "best_choice_id": "d1",
+      "acceptable_choice_ids": [
+        "d2"
+      ]
+    }
+  ],
+  "review": {
+    "show_best_answer": true,
+    "show_next_move": true,
+    "replay_window_sec": 6
+  }
+}

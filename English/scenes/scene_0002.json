@@ -1,0 +1,161 @@
+{
+  "scene_id": "scene_0002",
+  "duration_sec": 60,
+  "topic": [
+    "work-life balance"
+  ],
+  "setting": "office_lunch_break",
+  "speakers": [
+    {
+      "id": "A",
+      "label": "A",
+      "gender": "M",
+      "accent": "US",
+      "nationality": "USA"
+    },
+    {
+      "id": "B",
+      "label": "B",
+      "gender": "F",
+      "accent": "AU",
+      "nationality": "Australia"
+    },
+    {
+      "id": "C",
+      "label": "C",
+      "gender": "M",
+      "accent": "SG",
+      "nationality": "Singapore"
+    },
+    {
+      "id": "D",
+      "label": "D",
+      "gender": "F",
+      "accent": "UK",
+      "nationality": "United Kingdom"
+    }
+  ],
+  "lines": [
+    {
+      "t": 0.0,
+      "spk": "A",
+      "text": "So, remote work has really changed how I think about office hours."
+    },
+    {
+      "t": 4.2,
+      "spk": "B",
+      "text": "Yeah, I don't miss commuting at all."
+    },
+    {
+      "t": 7.6,
+      "spk": "C",
+      "text": "It’s still weird to be eating breakfast on a video call though."
+    },
+    {
+      "t": 11.2,
+      "spk": "D",
+      "text": "Right? And time zones can make calls so early or late."
+    },
+    {
+      "t": 15.0,
+      "event": "CUTIN_1"
+    },
+    {
+      "t": 15.1,
+      "spk": "A",
+      "text": "Absolutely. Without boundaries, work creeps into everything."
+    },
+    {
+      "t": 18.6,
+      "spk": "B",
+      "text": "I started putting my laptop away at 6 pm."
+    },
+    {
+      "t": 22.0,
+      "spk": "C",
+      "text": "Our team set 'no meeting' days too."
+    },
+    {
+      "t": 26.0,
+      "spk": "D",
+      "text": "Same, we even have a meeting-free Friday."
+    },
+    {
+      "t": 30.0,
+      "event": "CUTIN_2"
+    },
+    {
+      "t": 30.1,
+      "spk": "B",
+      "text": "In some countries, 9-to-5 is sacred."
+    },
+    {
+      "t": 34.0,
+      "spk": "A",
+      "text": "In others, staying late is seen as dedication."
+    }
+  ],
+  "cutins": [
+    {
+      "id": "CUTIN_1",
+      "time_sec": 15.0,
+      "timer_sec": 5,
+      "prompt": "Share a thought or question about balancing work and life without derailing the flow.",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Exactly! Do you set boundaries to avoid working late at home?"
+        },
+        {
+          "id": "c2",
+          "text": "I love working from home, I can stay in pajamas."
+        },
+        {
+          "id": "c3",
+          "text": "Working remote is terrible, we should go back to the office."
+        },
+        {
+          "id": "c4",
+          "text": "I'm thinking about changing jobs because of remote work."
+        }
+      ],
+      "best_choice_id": "c1",
+      "acceptable_choice_ids": [
+        "c2"
+      ]
+    },
+    {
+      "id": "CUTIN_2",
+      "time_sec": 30.0,
+      "timer_sec": 5,
+      "prompt": "Take the discussion deeper into culture or values.",
+      "choices": [
+        {
+          "id": "d1",
+          "text": "Do you think different cultures handle work‑life balance differently?"
+        },
+        {
+          "id": "d2",
+          "text": "It sounds like fairness and respect for personal time is key—what’s something that helps in your country?"
+        },
+        {
+          "id": "d3",
+          "text": "Work-life balance doesn't matter; we should just work harder."
+        },
+        {
+          "id": "d4",
+          "text": "By the way, I had brunch last weekend."
+        }
+      ],
+      "best_choice_id": "d2",
+      "acceptable_choice_ids": [
+        "d1"
+      ]
+    }
+  ],
+  "review": {
+    "show_best_answer": true,
+    "show_next_move": true,
+    "replay_window_sec": 6
+  }
+}
